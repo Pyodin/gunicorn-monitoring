@@ -1,0 +1,12 @@
+apiVersion: 1
+
+providers:
+- name: 'default'
+  orgId: 1
+  folder: ''
+  type: 'file'
+  disableDeletion: true
+  editable: true
+  updateIntervalSeconds: 10 # interval to check for updates in the dashboard files
+  options:
+    path: /etc/grafana/dashboards # path to the directory containing dashboard JSON files
