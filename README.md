@@ -40,3 +40,19 @@ After you have the project up and running, you can start generating load to your
 
 ```bash
 python load.py
+```
+
+The load.py script will start sending requests to your Flask apps, which will generate StatsD metrics. Prometheus will scrape these metrics, and they will be available in your Grafana dashboard.
+
+## Acknowledgements
+
+- [Grafana](https://grafana.com/)
+- [Prometheus](https://prometheus.io/)
+- [Docker](https://www.docker.com/)
+- [Docker-Compose](https://docs.docker.com/compose/)
+- [StatsD-Exporters]
+- [Python](https://www.python.org/)
+- [Flask](https://flask.palletsprojects.com/en/1.1.x/)
+- [Gunicorn](https://gunicorn.org/)
+
+
